@@ -194,7 +194,6 @@ def send_bark(title, message, url):
             "title": title,
             "body": message,
             "sound": "chime",
-            "level": "critical",
             "Icon": "https://pbs.twimg.com/profile_images/2071530886810771456/gwvAIXM2_400x400.jpg",
         },
         headers={"Content-Type": "application/json; charset=utf-8"},
